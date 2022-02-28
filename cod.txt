@@ -1,0 +1,1 @@
+<start><calcul> a=0 </calcul><pentru i=(a=1) cond=(a<=5) inc=(a++)><calcul> b = 5 </calcul><catTimp cond=(b>=1)><scrie> a*b </scrie><calcul> b-- </calcul></catTimp></pentru></start>

@@ -1,0 +1,46 @@
+<start> </start>
+<calcul> </calcul>
+<daca cond=(expresie)> </daca>
+<altfelDaca cond=(expresie)>
+<altfel> </altfel>
+<catTimp cond=(expresie)> </daca>
+<pentru i=(atribuire) cond=(expresie) inc=(expresie)> </pentru>
+<doWhile cond=(expresie)>
+<citeste> (sir de variabile despartite prin virgula de ex: a,b,c) </citeste>
+<scrie> </scrie>
+daca dupa apasarea butonului executa nu se intampla nimic, inseamna ca a aparut o greseala de sintaxa
+
+<start>
+<citeste> a,b </citeste>
+<daca cond=(a<b)>
+<scrie> "b este mai mare" </scrie>
+</daca>
+<altfel>
+<scrie> "a este mai mare" </scrie>
+</altfel>
+</start>
+
+<start>
+<citeste> a</citeste>
+<daca cond=(a<10)>
+<scrie>"Mai mic decat 10"</scrie>
+</altfelDaca cond=(a<20)>
+<scrie>"Mai mic decat 20"</scrie>
+</altfelDaca>
+<altfel>
+<scrie>"Numar foarte mare"</scrie>
+</altfel>
+</start>
+
+<start>
+<calcul> a=0 </calcul>
+<pentru i=(a=1) cond=(a<=5) inc=(a++)>
+<calcul> b=5 </calcul>
+<catTimp cond=(b>=1)>
+<scrie> a*b </scrie>
+<calcul> b-- </calcul>
+</catTimp>
+</pentru>
+</start>
+
+

@@ -1,0 +1,53 @@
+# depslib dependency file v1.0
+1642242847 source:c:\users\marti\onedrive\desktop\c++\interschema\main.cpp
+	<iostream>
+	<stdlib.h>
+	<winbgim.h>
+	<string>
+	<stack>
+	<list>
+	<set>
+	<queue>
+	<fstream>
+	<dirent.h>
+	<math.h>
+	<time.h>
+	"evaluareExp.h"
+	"genereazaSchema.h"
+
+1642242994 c:\users\marti\onedrive\desktop\c++\interschema\evaluareexp.h
+	<string>
+	<string.h>
+	<vector>
+	<algorithm>
+	<cctype>
+	<stack>
+
+1642242874 c:\users\marti\onedrive\desktop\c++\interschema\genereazaschema.h
+
+1642247617 source:c:\users\marti\onedrive\desktop\interschem\main.cpp
+	<iostream>
+	<stdlib.h>
+	<winbgim.h>
+	<string>
+	<stack>
+	<list>
+	<set>
+	<queue>
+	<fstream>
+	<dirent.h>
+	<math.h>
+	<time.h>
+	"evaluareExp.h"
+	"genereazaSchema.h"
+
+1642365200 c:\users\marti\onedrive\desktop\interschem\evaluareexp.h
+	<string>
+	<string.h>
+	<vector>
+	<algorithm>
+	<cctype>
+	<stack>
+
+1642246859 c:\users\marti\onedrive\desktop\interschem\genereazaschema.h
+
